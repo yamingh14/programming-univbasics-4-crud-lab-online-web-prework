@@ -28,6 +28,7 @@ element = array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
+<<<<<<< HEAD
 array[index_number]
 
 end
@@ -40,6 +41,17 @@ end
 def retrieve_last_element_from_array(array)
 array[-1]
 # array.last
+=======
+array.index_number[0]
+end
+
+def retrieve_first_element_from_array(array)
+
+end
+
+def retrieve_last_element_from_array(array)
+
+>>>>>>> dcc3fb24bcaadd257e6024ab8905ec394684c1ad
 end
 
 def update_element_from_index(array, index_number, element)
